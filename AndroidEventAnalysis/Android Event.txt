@@ -1,0 +1,27 @@
+title Authentication Sequence
+
+User->+Activity:dispatchTouchEvent
+
+Activity->+Window(PhoneWindow):superDispatchTouchEvent
+
+Window(PhoneWindow)->+mDecorView(FrameLayout):superDispatchTouchEvent
+
+mDecorView(FrameLayout)->+ViewGroup:dispatchTouchEvent
+
+note right of ViewGroup:onInterceptTouchEvent
+
+note right of ViewGroup:find mFirstTouchTarget to comsume The Event
+
+note right of ViewGroup:dispatchEvent to mFirstTouchTarget or self
+
+ViewGroup->+View:dispatchTouchEvent
+
+View->-ViewGroup:true/false
+
+ViewGroup->mDecorView(FrameLayout):true/false
+
+mDecorView(FrameLayout)->-Window(PhoneWindow):true/false
+
+Window(PhoneWindow)->-Activity:true/false
+
+Activity->-User:UserInteraction
