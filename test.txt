@@ -17,3 +17,6 @@ step1
 step3
 step2
 step4
+
+
+fix bug 1
