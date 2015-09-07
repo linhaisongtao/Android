@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<uml:Model xmi:version="2.1" xmlns:xmi="http://schema.omg.org/spec/XMI/2.1" xmlns:uml="http://www.eclipse.org/uml2/2.1.0/UML" xmi:id="_kkgsMBeLEd60N8ipLbB6nA" name="ObjectOrientedModel_1">
+  <packagedElement xmi:type="uml:Actor" xmi:id="_kZ9E8FU1EeWZ7uLLBci9eQ" name="User"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_kbVlAFU1EeWZ7uLLBci9eQ" name="LauncherActivity"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_kbbroFU1EeWZ7uLLBci9eQ" name="Instrumentation"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_kbeH4FU1EeWZ7uLLBci9eQ" name="ActivityManagerActivityManagerService"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_kbgkIFU1EeWZ7uLLBci9eQ" name="ActivityStackSupervisor"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_kbjAYFU1EeWZ7uLLBci9eQ" name="scheduleLaunchActivity"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_kbk1kFU1EeWZ7uLLBci9eQ" name="ApplicationThread"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_kbnR0FU1EeWZ7uLLBci9eQ" name="ActivityStack"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_kbpuEFU1EeWZ7uLLBci9eQ" name="ActiivtyThread"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_kbsKUFU1EeWZ7uLLBci9eQ" name="ActivityThreadH"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_kbt_gFU1EeWZ7uLLBci9eQ" name="Process"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_kbxC0FU1EeWZ7uLLBci9eQ" name="ActivityThreadA"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_kby4AFU1EeWZ7uLLBci9eQ" name="ApplicationThreadA"/>
+  <packagedElement xmi:type="uml:InstanceSpecification" xmi:id="_kb1UQFU1EeWZ7uLLBci9eQ" name="ActivityThreadAH"/>
+  <packagedElement xmi:type="uml:Interaction" xmi:id="_kcJdUFU1EeWZ7uLLBci9eQ" name="SequenceDiagram_1">
+    <ownedAttribute xmi:id="_khDLcFU1EeWZ7uLLBci9eQ" name="" type="_kcJdUFU1EeWZ7uLLBci9eQ"/>
+    <ownedAttribute xmi:id="_kh9xcFU1EeWZ7uLLBci9eQ" name="" type="_kZ9E8FU1EeWZ7uLLBci9eQ"/>
+    <lifeline xmi:id="_kgFiIFU1EeWZ7uLLBci9eQ" name="SequenceDiagram_1" represents="_khDLcFU1EeWZ7uLLBci9eQ"/>
+    <lifeline xmi:id="_kh6HEFU1EeWZ7uLLBci9eQ" name="User" represents="_kh9xcFU1EeWZ7uLLBci9eQ" coveredBy="_kur-0FU1EeWZ7uLLBci9eQ"/>
+    <lifeline xmi:id="_kiwboFU1EeWZ7uLLBci9eQ" name="LauncherActivity" coveredBy="_kqATIFU1EeWZ7uLLBci9eQ _kqGZwFU1EeWZ7uLLBci9eQ _kqYGkFU1EeWZ7uLLBci9eQ _kuIlMFU1EeWZ7uLLBci9eQ _kuaSAFU1EeWZ7uLLBci9eQ _kufxkFU1EeWZ7uLLBci9eQ _kuvCIFU1EeWZ7uLLBci9eQ"/>
+    <lifeline xmi:id="_ki1UIFU1EeWZ7uLLBci9eQ" name="Instrumentation" coveredBy="_kqQx0FU1EeWZ7uLLBci9eQ _kqnXIFU1EeWZ7uLLBci9eQ _ktzOAFU1EeWZ7uLLBci9eQ _kuP58FU1EeWZ7uLLBci9eQ"/>
+    <lifeline xmi:id="_ki6MoFU1EeWZ7uLLBci9eQ" name="ActivityManagerActivityManagerService" coveredBy="_kmivcFU1EeWZ7uLLBci9eQ _kmynEFU1EeWZ7uLLBci9eQ _km4GoFU1EeWZ7uLLBci9eQ _knJMYFU1EeWZ7uLLBci9eQ _knl4UFU1EeWZ7uLLBci9eQ _kn-S0FU1EeWZ7uLLBci9eQ _kpeusFU1EeWZ7uLLBci9eQ _kp1UAFU1EeWZ7uLLBci9eQ _ktH4kFU1EeWZ7uLLBci9eQ _ktazgFU1EeWZ7uLLBci9eQ _ktlyoFU1EeWZ7uLLBci9eQ _kt7J0FU1EeWZ7uLLBci9eQ"/>
+    <lifeline xmi:id="_ki93AFU1EeWZ7uLLBci9eQ" name="ActivityStackSupervisor" coveredBy="_kl_84FU1EeWZ7uLLBci9eQ _kmRCoFU1EeWZ7uLLBci9eQ _kmXJQFU1EeWZ7uLLBci9eQ _kmo2EFU1EeWZ7uLLBci9eQ _kn3lIFU1EeWZ7uLLBci9eQ _koQmsFU1EeWZ7uLLBci9eQ _kovH0FU1EeWZ7uLLBci9eQ _kpFGEFU1EeWZ7uLLBci9eQ _krv_kFU1EeWZ7uLLBci9eQ _ksBFUFU1EeWZ7uLLBci9eQ _ksF90FU1EeWZ7uLLBci9eQ _ksQ88FU1EeWZ7uLLBci9eQ _ksV1cFU1EeWZ7uLLBci9eQ _ksniQFU1EeWZ7uLLBci9eQ _ks0WkFU1EeWZ7uLLBci9eQ _ktN_MFU1EeWZ7uLLBci9eQ"/>
+    <lifeline xmi:id="_kjBhYFU1EeWZ7uLLBci9eQ" name="scheduleLaunchActivity" coveredBy="_kshboFU1EeWZ7uLLBci9eQ _ks52IFU1EeWZ7uLLBci9eQ"/>
+    <lifeline xmi:id="_kjFLwFU1EeWZ7uLLBci9eQ" name="ApplicationThread" coveredBy="_krPpQFU1EeWZ7uLLBci9eQ _krlngFU1EeWZ7uLLBci9eQ"/>
+    <lifeline xmi:id="_kjJdMFU1EeWZ7uLLBci9eQ" name="ActivityStack" coveredBy="_koJR8FU1EeWZ7uLLBci9eQ _kocM4FU1EeWZ7uLLBci9eQ _koi6kFU1EeWZ7uLLBci9eQ _ko11gFU1EeWZ7uLLBci9eQ _ko_mgFU1EeWZ7uLLBci9eQ _kpPeIFU1EeWZ7uLLBci9eQ _kpVkwFU1EeWZ7uLLBci9eQ _kplcYFU1EeWZ7uLLBci9eQ _krfg4FU1EeWZ7uLLBci9eQ _kr1fIFU1EeWZ7uLLBci9eQ"/>
+    <lifeline xmi:id="_kjNHkFU1EeWZ7uLLBci9eQ" name="ActiivtyThread" coveredBy="_kpwbgFU1EeWZ7uLLBci9eQ _kqieoFU1EeWZ7uLLBci9eQ _kqxIIFU1EeWZ7uLLBci9eQ _kq1ZkFU1EeWZ7uLLBci9eQ _krFRMFU1EeWZ7uLLBci9eQ"/>
+    <lifeline xmi:id="_kjQx8FU1EeWZ7uLLBci9eQ" name="ActivityThreadH" coveredBy="_kq_xoFU1EeWZ7uLLBci9eQ _krVI0FU1EeWZ7uLLBci9eQ"/>
+    <lifeline xmi:id="_kjUcUFU1EeWZ7uLLBci9eQ" name="Process" coveredBy="_knTkcFU1EeWZ7uLLBci9eQ _knsmAFU1EeWZ7uLLBci9eQ"/>
+    <lifeline xmi:id="_kjYGsFU1EeWZ7uLLBci9eQ" name="ActivityThreadA" coveredBy="_klEv0FU1EeWZ7uLLBci9eQ _klQ9EFU1EeWZ7uLLBci9eQ _klj4AFU1EeWZ7uLLBci9eQ _knDFwFU1EeWZ7uLLBci9eQ _knaSIFU1EeWZ7uLLBci9eQ"/>
+    <lifeline xmi:id="_kjcYIFU1EeWZ7uLLBci9eQ" name="ApplicationThreadA" coveredBy="_klu3IFU1EeWZ7uLLBci9eQ _kmGqkFU1EeWZ7uLLBci9eQ"/>
+    <lifeline xmi:id="_kjgCgFU1EeWZ7uLLBci9eQ" name="ActivityThreadAH" coveredBy="_kldKUFU1EeWZ7uLLBci9eQ _kl0WsFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_klEv0FU1EeWZ7uLLBci9eQ" name="performLaunchActivity_src" covered="_kjYGsFU1EeWZ7uLLBci9eQ" message="_kk5wsFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_klQ9EFU1EeWZ7uLLBci9eQ" name="performLaunchActivity_dst" covered="_kjYGsFU1EeWZ7uLLBci9eQ" message="_kk5wsFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kldKUFU1EeWZ7uLLBci9eQ" name="handleLaunchActivity_src" covered="_kjgCgFU1EeWZ7uLLBci9eQ" message="_klZf8FU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_klj4AFU1EeWZ7uLLBci9eQ" name="handleLaunchActivity_dst" covered="_kjYGsFU1EeWZ7uLLBci9eQ" message="_klZf8FU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_klu3IFU1EeWZ7uLLBci9eQ" name="sendMessageLAUNCH_ACTIVITY_src" covered="_kjcYIFU1EeWZ7uLLBci9eQ" message="_klqlsFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kl0WsFU1EeWZ7uLLBci9eQ" name="sendMessageLAUNCH_ACTIVITY_dst" covered="_kjgCgFU1EeWZ7uLLBci9eQ" message="_klqlsFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kl_84FU1EeWZ7uLLBci9eQ" name="scheduleLaunchActivity_src" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_kl8SgFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kmGqkFU1EeWZ7uLLBci9eQ" name="scheduleLaunchActivity_dst" covered="_kjcYIFU1EeWZ7uLLBci9eQ" message="_kl8SgFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kmRCoFU1EeWZ7uLLBci9eQ" name="realStartActivityLocked_src" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_kmN_UFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kmXJQFU1EeWZ7uLLBci9eQ" name="realStartActivityLocked_dst" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_kmN_UFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kmivcFU1EeWZ7uLLBci9eQ" name="attachApplicationLocked_src" covered="_ki6MoFU1EeWZ7uLLBci9eQ" message="_kmfFEFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kmo2EFU1EeWZ7uLLBci9eQ" name="attachApplicationLocked_dst" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_kmfFEFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kmynEFU1EeWZ7uLLBci9eQ" name="attachApplicationLocked_src" covered="_ki6MoFU1EeWZ7uLLBci9eQ" message="_kmwK0FU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_km4GoFU1EeWZ7uLLBci9eQ" name="attachApplicationLocked_dst" covered="_ki6MoFU1EeWZ7uLLBci9eQ" message="_kmwK0FU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_knDFwFU1EeWZ7uLLBci9eQ" name="attachApplication_src" covered="_kjYGsFU1EeWZ7uLLBci9eQ" message="_km-0UFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_knJMYFU1EeWZ7uLLBci9eQ" name="attachApplication_dst" covered="_ki6MoFU1EeWZ7uLLBci9eQ" message="_km-0UFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_knTkcFU1EeWZ7uLLBci9eQ" name="main_src" covered="_kjUcUFU1EeWZ7uLLBci9eQ" message="_knP6EFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_knaSIFU1EeWZ7uLLBci9eQ" name="main_dst" covered="_kjYGsFU1EeWZ7uLLBci9eQ" message="_knP6EFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_knl4UFU1EeWZ7uLLBci9eQ" name="start_src" covered="_ki6MoFU1EeWZ7uLLBci9eQ" message="_kniN8FU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_knsmAFU1EeWZ7uLLBci9eQ" name="start_dst" covered="_kjUcUFU1EeWZ7uLLBci9eQ" message="_kniN8FU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kn3lIFU1EeWZ7uLLBci9eQ" name="startProcessLocked_src" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_knz6wFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kn-S0FU1EeWZ7uLLBci9eQ" name="startProcessLocked_dst" covered="_ki6MoFU1EeWZ7uLLBci9eQ" message="_knz6wFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_koJR8FU1EeWZ7uLLBci9eQ" name="startSpecificActivityLocked_src" covered="_kjJdMFU1EeWZ7uLLBci9eQ" message="_koFnkFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_koQmsFU1EeWZ7uLLBci9eQ" name="startSpecificActivityLocked_dst" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_koFnkFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kocM4FU1EeWZ7uLLBci9eQ" name="resumeTopActivityInnerLocked_src" covered="_kjJdMFU1EeWZ7uLLBci9eQ" message="_koYigFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_koi6kFU1EeWZ7uLLBci9eQ" name="resumeTopActivityInnerLocked_dst" covered="_kjJdMFU1EeWZ7uLLBci9eQ" message="_koYigFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kovH0FU1EeWZ7uLLBci9eQ" name="resumeTopActivityLocked_src" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_koqPUFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ko11gFU1EeWZ7uLLBci9eQ" name="resumeTopActivityLocked_dst" covered="_kjJdMFU1EeWZ7uLLBci9eQ" message="_koqPUFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ko_mgFU1EeWZ7uLLBci9eQ" name="resumeTopActivityLocked_src" covered="_kjJdMFU1EeWZ7uLLBci9eQ" message="_ko9KQFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kpFGEFU1EeWZ7uLLBci9eQ" name="resumeTopActivityLocked_dst" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_ko9KQFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kpPeIFU1EeWZ7uLLBci9eQ" name="completePauseLocked_src" covered="_kjJdMFU1EeWZ7uLLBci9eQ" message="_kpLMsFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kpVkwFU1EeWZ7uLLBci9eQ" name="completePauseLocked_dst" covered="_kjJdMFU1EeWZ7uLLBci9eQ" message="_kpLMsFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kpeusFU1EeWZ7uLLBci9eQ" name="activityPausedLocked_src" covered="_ki6MoFU1EeWZ7uLLBci9eQ" message="_kpbrYFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kplcYFU1EeWZ7uLLBci9eQ" name="activityPausedLocked_dst" covered="_kjJdMFU1EeWZ7uLLBci9eQ" message="_kpbrYFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kpwbgFU1EeWZ7uLLBci9eQ" name="activityPaused_src" covered="_kjNHkFU1EeWZ7uLLBci9eQ" message="_kpsxIFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kp1UAFU1EeWZ7uLLBci9eQ" name="activityPaused_dst" covered="_ki6MoFU1EeWZ7uLLBci9eQ" message="_kpsxIFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kqATIFU1EeWZ7uLLBci9eQ" name="onPause_src" covered="_kiwboFU1EeWZ7uLLBci9eQ" message="_kp8BsFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kqGZwFU1EeWZ7uLLBci9eQ" name="onPause_dst" covered="_kiwboFU1EeWZ7uLLBci9eQ" message="_kp8BsFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kqQx0FU1EeWZ7uLLBci9eQ" name="performPause_src" covered="_ki1UIFU1EeWZ7uLLBci9eQ" message="_kqNHcFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kqYGkFU1EeWZ7uLLBci9eQ" name="performPause_dst" covered="_kiwboFU1EeWZ7uLLBci9eQ" message="_kqNHcFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kqieoFU1EeWZ7uLLBci9eQ" name="callActivityOnPause_src" covered="_kjNHkFU1EeWZ7uLLBci9eQ" message="_kqe0QFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kqnXIFU1EeWZ7uLLBci9eQ" name="callActivityOnPause_dst" covered="_ki1UIFU1EeWZ7uLLBci9eQ" message="_kqe0QFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kqxIIFU1EeWZ7uLLBci9eQ" name="performPauseActivity_src" covered="_kjNHkFU1EeWZ7uLLBci9eQ" message="_kqtdwFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kq1ZkFU1EeWZ7uLLBci9eQ" name="performPauseActivity_dst" covered="_kjNHkFU1EeWZ7uLLBci9eQ" message="_kqtdwFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kq_xoFU1EeWZ7uLLBci9eQ" name="handlePauseActivity_src" covered="_kjQx8FU1EeWZ7uLLBci9eQ" message="_kq8uUFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_krFRMFU1EeWZ7uLLBci9eQ" name="handlePauseActivity_dst" covered="_kjNHkFU1EeWZ7uLLBci9eQ" message="_kq8uUFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_krPpQFU1EeWZ7uLLBci9eQ" name="sendMessagePAUSE_ACTIVITY_FINISHING_src" covered="_kjFLwFU1EeWZ7uLLBci9eQ" message="_krL-4FU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_krVI0FU1EeWZ7uLLBci9eQ" name="sendMessagePAUSE_ACTIVITY_FINISHING_dst" covered="_kjQx8FU1EeWZ7uLLBci9eQ" message="_krL-4FU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_krfg4FU1EeWZ7uLLBci9eQ" name="schedulePauseActivity_src" covered="_kjJdMFU1EeWZ7uLLBci9eQ" message="_krcdkFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_krlngFU1EeWZ7uLLBci9eQ" name="schedulePauseActivity_dst" covered="_kjFLwFU1EeWZ7uLLBci9eQ" message="_krcdkFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_krv_kFU1EeWZ7uLLBci9eQ" name="startPausingLocked_src" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_krsVMFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kr1fIFU1EeWZ7uLLBci9eQ" name="startPausingLocked_dst" covered="_kjJdMFU1EeWZ7uLLBci9eQ" message="_krsVMFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ksBFUFU1EeWZ7uLLBci9eQ" name="startActivityUncheckedLocked_src" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_kr9a8FU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ksF90FU1EeWZ7uLLBci9eQ" name="startActivityUncheckedLocked_dst" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_kr9a8FU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ksQ88FU1EeWZ7uLLBci9eQ" name="startActivityLocked_src" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_ksMrgFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ksV1cFU1EeWZ7uLLBci9eQ" name="startActivityLocked_dst" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_ksMrgFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kshboFU1EeWZ7uLLBci9eQ" name="ActivityInfo_src" covered="_kjBhYFU1EeWZ7uLLBci9eQ" message="_ksdKMFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ksniQFU1EeWZ7uLLBci9eQ" name="ActivityInfo_dst" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_ksdKMFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ks0WkFU1EeWZ7uLLBci9eQ" name="resolveIntent_src" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_kswsMFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ks52IFU1EeWZ7uLLBci9eQ" name="resolveIntent_dst" covered="_kjBhYFU1EeWZ7uLLBci9eQ" message="_kswsMFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ktH4kFU1EeWZ7uLLBci9eQ" name="startActivityMayWait_src" covered="_ki6MoFU1EeWZ7uLLBci9eQ" message="_ktDnIFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ktN_MFU1EeWZ7uLLBci9eQ" name="startActivityMayWait_dst" covered="_ki93AFU1EeWZ7uLLBci9eQ" message="_ktDnIFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ktazgFU1EeWZ7uLLBci9eQ" name="startActivityAsUser_src" covered="_ki6MoFU1EeWZ7uLLBci9eQ" message="_ktVT8FU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ktlyoFU1EeWZ7uLLBci9eQ" name="startActivityAsUser_dst" covered="_ki6MoFU1EeWZ7uLLBci9eQ" message="_ktVT8FU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_ktzOAFU1EeWZ7uLLBci9eQ" name="startActivity_src" covered="_ki1UIFU1EeWZ7uLLBci9eQ" message="_kttucFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kt7J0FU1EeWZ7uLLBci9eQ" name="startActivity_dst" covered="_ki6MoFU1EeWZ7uLLBci9eQ" message="_kttucFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kuIlMFU1EeWZ7uLLBci9eQ" name="execStartActivity_src" covered="_kiwboFU1EeWZ7uLLBci9eQ" message="_kuDssFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kuP58FU1EeWZ7uLLBci9eQ" name="execStartActivity_dst" covered="_ki1UIFU1EeWZ7uLLBci9eQ" message="_kuDssFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kuaSAFU1EeWZ7uLLBci9eQ" name="startActivityForResult_src" covered="_kiwboFU1EeWZ7uLLBci9eQ" message="_kuWnoFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kufxkFU1EeWZ7uLLBci9eQ" name="startActivityForResult_dst" covered="_kiwboFU1EeWZ7uLLBci9eQ" message="_kuWnoFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kur-0FU1EeWZ7uLLBci9eQ" name="startActivity_src" covered="_kh6HEFU1EeWZ7uLLBci9eQ" message="_kuo7gFU1EeWZ7uLLBci9eQ"/>
+    <fragment xmi:type="uml:MessageOccurrenceSpecification" xmi:id="_kuvCIFU1EeWZ7uLLBci9eQ" name="startActivity_dst" covered="_kiwboFU1EeWZ7uLLBci9eQ" message="_kuo7gFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kk5wsFU1EeWZ7uLLBci9eQ" name="performLaunchActivity" receiveEvent="_klQ9EFU1EeWZ7uLLBci9eQ" sendEvent="_klEv0FU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_klZf8FU1EeWZ7uLLBci9eQ" name="handleLaunchActivity" receiveEvent="_klj4AFU1EeWZ7uLLBci9eQ" sendEvent="_kldKUFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_klqlsFU1EeWZ7uLLBci9eQ" name="sendMessageLAUNCH_ACTIVITY" receiveEvent="_kl0WsFU1EeWZ7uLLBci9eQ" sendEvent="_klu3IFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kl8SgFU1EeWZ7uLLBci9eQ" name="scheduleLaunchActivity" receiveEvent="_kmGqkFU1EeWZ7uLLBci9eQ" sendEvent="_kl_84FU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kmN_UFU1EeWZ7uLLBci9eQ" name="realStartActivityLocked" receiveEvent="_kmXJQFU1EeWZ7uLLBci9eQ" sendEvent="_kmRCoFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kmfFEFU1EeWZ7uLLBci9eQ" name="attachApplicationLocked" receiveEvent="_kmo2EFU1EeWZ7uLLBci9eQ" sendEvent="_kmivcFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kmwK0FU1EeWZ7uLLBci9eQ" name="attachApplicationLocked" receiveEvent="_km4GoFU1EeWZ7uLLBci9eQ" sendEvent="_kmynEFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_km-0UFU1EeWZ7uLLBci9eQ" name="attachApplication" receiveEvent="_knJMYFU1EeWZ7uLLBci9eQ" sendEvent="_knDFwFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_knP6EFU1EeWZ7uLLBci9eQ" name="main" receiveEvent="_knaSIFU1EeWZ7uLLBci9eQ" sendEvent="_knTkcFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kniN8FU1EeWZ7uLLBci9eQ" name="start" receiveEvent="_knsmAFU1EeWZ7uLLBci9eQ" sendEvent="_knl4UFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_knz6wFU1EeWZ7uLLBci9eQ" name="startProcessLocked" receiveEvent="_kn-S0FU1EeWZ7uLLBci9eQ" sendEvent="_kn3lIFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_koFnkFU1EeWZ7uLLBci9eQ" name="startSpecificActivityLocked" receiveEvent="_koQmsFU1EeWZ7uLLBci9eQ" sendEvent="_koJR8FU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_koYigFU1EeWZ7uLLBci9eQ" name="resumeTopActivityInnerLocked" receiveEvent="_koi6kFU1EeWZ7uLLBci9eQ" sendEvent="_kocM4FU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_koqPUFU1EeWZ7uLLBci9eQ" name="resumeTopActivityLocked" receiveEvent="_ko11gFU1EeWZ7uLLBci9eQ" sendEvent="_kovH0FU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_ko9KQFU1EeWZ7uLLBci9eQ" name="resumeTopActivityLocked" receiveEvent="_kpFGEFU1EeWZ7uLLBci9eQ" sendEvent="_ko_mgFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kpLMsFU1EeWZ7uLLBci9eQ" name="completePauseLocked" receiveEvent="_kpVkwFU1EeWZ7uLLBci9eQ" sendEvent="_kpPeIFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kpbrYFU1EeWZ7uLLBci9eQ" name="activityPausedLocked" receiveEvent="_kplcYFU1EeWZ7uLLBci9eQ" sendEvent="_kpeusFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kpsxIFU1EeWZ7uLLBci9eQ" name="activityPaused" receiveEvent="_kp1UAFU1EeWZ7uLLBci9eQ" sendEvent="_kpwbgFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kp8BsFU1EeWZ7uLLBci9eQ" name="onPause" receiveEvent="_kqGZwFU1EeWZ7uLLBci9eQ" sendEvent="_kqATIFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kqNHcFU1EeWZ7uLLBci9eQ" name="performPause" receiveEvent="_kqYGkFU1EeWZ7uLLBci9eQ" sendEvent="_kqQx0FU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kqe0QFU1EeWZ7uLLBci9eQ" name="callActivityOnPause" receiveEvent="_kqnXIFU1EeWZ7uLLBci9eQ" sendEvent="_kqieoFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kqtdwFU1EeWZ7uLLBci9eQ" name="performPauseActivity" receiveEvent="_kq1ZkFU1EeWZ7uLLBci9eQ" sendEvent="_kqxIIFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kq8uUFU1EeWZ7uLLBci9eQ" name="handlePauseActivity" receiveEvent="_krFRMFU1EeWZ7uLLBci9eQ" sendEvent="_kq_xoFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_krL-4FU1EeWZ7uLLBci9eQ" name="sendMessagePAUSE_ACTIVITY_FINISHING" receiveEvent="_krVI0FU1EeWZ7uLLBci9eQ" sendEvent="_krPpQFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_krcdkFU1EeWZ7uLLBci9eQ" name="schedulePauseActivity" receiveEvent="_krlngFU1EeWZ7uLLBci9eQ" sendEvent="_krfg4FU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_krsVMFU1EeWZ7uLLBci9eQ" name="startPausingLocked" receiveEvent="_kr1fIFU1EeWZ7uLLBci9eQ" sendEvent="_krv_kFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kr9a8FU1EeWZ7uLLBci9eQ" name="startActivityUncheckedLocked" receiveEvent="_ksF90FU1EeWZ7uLLBci9eQ" sendEvent="_ksBFUFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_ksMrgFU1EeWZ7uLLBci9eQ" name="startActivityLocked" receiveEvent="_ksV1cFU1EeWZ7uLLBci9eQ" sendEvent="_ksQ88FU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_ksdKMFU1EeWZ7uLLBci9eQ" name="ActivityInfo" messageSort="reply" receiveEvent="_ksniQFU1EeWZ7uLLBci9eQ" sendEvent="_kshboFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kswsMFU1EeWZ7uLLBci9eQ" name="resolveIntent" receiveEvent="_ks52IFU1EeWZ7uLLBci9eQ" sendEvent="_ks0WkFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_ktDnIFU1EeWZ7uLLBci9eQ" name="startActivityMayWait" receiveEvent="_ktN_MFU1EeWZ7uLLBci9eQ" sendEvent="_ktH4kFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_ktVT8FU1EeWZ7uLLBci9eQ" name="startActivityAsUser" receiveEvent="_ktlyoFU1EeWZ7uLLBci9eQ" sendEvent="_ktazgFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kttucFU1EeWZ7uLLBci9eQ" name="startActivity" receiveEvent="_kt7J0FU1EeWZ7uLLBci9eQ" sendEvent="_ktzOAFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kuDssFU1EeWZ7uLLBci9eQ" name="execStartActivity" receiveEvent="_kuP58FU1EeWZ7uLLBci9eQ" sendEvent="_kuIlMFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kuWnoFU1EeWZ7uLLBci9eQ" name="startActivityForResult" receiveEvent="_kufxkFU1EeWZ7uLLBci9eQ" sendEvent="_kuaSAFU1EeWZ7uLLBci9eQ"/>
+    <message xmi:id="_kuo7gFU1EeWZ7uLLBci9eQ" name="startActivity" receiveEvent="_kuvCIFU1EeWZ7uLLBci9eQ" sendEvent="_kur-0FU1EeWZ7uLLBci9eQ"/>
+  </packagedElement>
+</uml:Model>
