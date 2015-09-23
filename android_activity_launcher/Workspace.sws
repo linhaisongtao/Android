@@ -4,14 +4,14 @@
 
 <Workspace>
 	<Local Expanded="Yes">
-		<Model ID="{3BF4C8A8-F894-41F6-B4A4-653BD55AB15F}" Loaded="No" Name="ActivityStart" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="LauncherActivity.oom"/>
-		<Model Expanded="Yes" ID="{A346A92E-4547-4819-ABFE-18B097F5CCDC}" Loaded="No" Name="ServiceStart" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="ServiceStart.oom"/>
-		<Model Expanded="Yes" ID="{466B4D40-2DAD-4DCD-AEC4-E83F32B272CD}" Loaded="No" Name="ServiceBind" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="ServiceBind.oom"/>
+		<Model ID="{3BF4C8A8-F894-41F6-B4A4-653BD55AB15F}" Name="ActivityStart" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="LauncherActivity.oom"/>
+		<Model ID="{A346A92E-4547-4819-ABFE-18B097F5CCDC}" Name="ServiceStart" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="ServiceStart.oom"/>
+		<Model ID="{466B4D40-2DAD-4DCD-AEC4-E83F32B272CD}" Name="ServiceBind" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="ServiceBind.oom"/>
 		<Model Expanded="Yes" ID="{2F76F8AF-935B-45C5-AC72-A08641C6A5C6}" Loaded="No" Name="AndroidMessageQueue" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="AndroidMessagModel.oom"/>
 		<Model ID="{ACC11F0C-B063-425F-8C64-C0F0EB2FD4A0}" Loaded="No" Name="FourbDetailActivity" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="详情页.oom"/>
 		<Model Expanded="Yes" ID="{65A367E3-EDFB-44B6-B990-33030F91BF4A}" Loaded="No" Name="bbweb" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="bbweb.oom"/>
 		<Model ID="{61A8DF20-311F-4BDB-AB98-169DA2355316}" Loaded="No" Name="AndroidInputManager" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="AndroidInputManager.oom"/>
-		<Model Expanded="Yes" ID="{C8743686-D0DD-46B7-B2EB-19653C964B50}" Name="输入系统静态类图" Selected="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="输入系统静态类图.oom"/>
+		<Model Expanded="Yes" ID="{C8743686-D0DD-46B7-B2EB-19653C964B50}" Name="输入系统静态类图" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="输入系统静态类图.oom"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
