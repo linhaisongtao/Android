@@ -11,7 +11,7 @@
 		<Model ID="{ACC11F0C-B063-425F-8C64-C0F0EB2FD4A0}" Loaded="No" Name="FourbDetailActivity" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="详情页.oom"/>
 		<Model Expanded="Yes" ID="{65A367E3-EDFB-44B6-B990-33030F91BF4A}" Loaded="No" Name="bbweb" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="bbweb.oom"/>
 		<Model ID="{61A8DF20-311F-4BDB-AB98-169DA2355316}" Loaded="No" Name="AndroidInputManager" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="AndroidInputManager.oom"/>
-		<Model Expanded="Yes" ID="{C8743686-D0DD-46B7-B2EB-19653C964B50}" Name="输入系统静态类图" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="输入系统静态类图.oom"/>
+		<Model Expanded="Yes" ID="{C8743686-D0DD-46B7-B2EB-19653C964B50}" Name="输入系统静态类图" Selected="Yes" Type="{18112060-1A4B-11D1-83D9-444553540000}" URL="输入系统静态类图.oom"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
